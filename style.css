@@ -7,7 +7,7 @@
 }
 a {
     text-decoration: 5px;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 /*Scrollbar CSS**/
@@ -30,11 +30,11 @@ header .logo {
     align-items: center;
 }
 header .logo img {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
 }
 header .logo h1 {
-    font-size: 30px;
+    font-size: 60px;
     color: #4f4f4f;
 }
 .menu {
@@ -91,16 +91,16 @@ header .logo h1 {
     height: 80%;
 }
 .home .right  img {
-    width: 100%;
-    height: 100%;
+    width: 82%;
+    height: 80%;
     object-fit: cover;
-    border-radius: 50px;
+    border-radius: 30px;
     box-shadow:  0 0 10px rgba(0,0,0,0.4);
 }
 .home .left h1 {
     font-size: 100px;
     color: #53b758;
-    font-weight: 600;
+    font-weight: 700;
     padding: 0;
     margin-left: -8px;
     margin-bottom: -10px;
@@ -116,7 +116,7 @@ header .logo h1 {
     text-transform: capitalize;
 }
 .home .left p {
-    font-size: 14px;
+    font-size: 25px;
     color: #999;
 }
 
