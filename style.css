@@ -34,14 +34,14 @@ header .logo img {
     height: 100px;
 }
 header .logo h1 {
-    font-size: 60px;
-    color: #4f4f4f;
+    font-size: 50px;
+    color: #0c0303;
 }
 .menu {
     display: flex;
 }
 .menu li {
-    margin-left:50px;
+    margin-left:40px;
     position: relative;
     list-style: none;
     display: flex;
@@ -55,14 +55,14 @@ header .logo h1 {
 }
 .menu li a:hover {
     color: #53b758;
-    font-size: 15px;
+    font-size: 5px;
 }
 .menu li:hover::after {
     content: "";
     position: absolute;
-    height: 30px;
+    height: 15px;
     z-index: -1;
-    width: 30px;
+    width: 15px;
     background-color: #f2f2f2;
     border-radius: 50%;
 }
