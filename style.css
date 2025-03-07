@@ -134,6 +134,14 @@ header .logo h1 {
     text-transform: uppercase;
     line-height: 1px;
 }
+.button-link a {
+    transition: all 0.3s ease;
+}
+.button-link a:hover {
+    transform: scale(1.1);
+    background: linear-gradient(#79BC23, #53B758);
+}
+
 
 /*Services CSS*/
 
@@ -258,9 +266,21 @@ footer {
     font-size: 14px;
     padding: 10px;
 }
-.small_menu {
-    display: none;
+.menu.small {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 10px;
 }
+.menu.small li {
+    display: block;
+    margin: 10px 0;
+}
+
 /*Mobile Responsive*/
 @media (max-width:628px) {
     /* Logo */
